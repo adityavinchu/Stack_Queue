@@ -11,16 +11,32 @@ namespace Stack_Queue
         static void Main(string[] args)
         {
             Stack stk = new Stack();
+           
 
+            /*
+            Console.WriteLine("--------------Stack--------------");
             stk.push(70);
             stk.push(30);
             stk.push(56);
             stk.DisplayAll();
-            stk.Count();
+
+            Console.WriteLine(" \n total nodes"+stk.Count());
             Console.WriteLine();
             stk.pop();
             stk.DisplayAll();
-            stk.Count();
+            Console.WriteLine("\n total nodes"+stk.Count()+"\n");
+            */
+            
+
+            Console.WriteLine("--------------Queue--------------\n");
+            Queue que = new Queue();
+
+            que.Enqueue(70);
+            que.Enqueue(30);
+            que.Enqueue(56);
+            que.DisplayAll();
+            Console.WriteLine("\n total nodes: "+que.Count()+"\n");
+            Console.WriteLine();
 
             Console.ReadLine();
 
