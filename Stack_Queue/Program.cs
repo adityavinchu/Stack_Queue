@@ -12,7 +12,6 @@ namespace Stack_Queue
         {
             Stack stk = new Stack();
 
-
             stk.push(70);
             stk.push(30);
             stk.push(56);
