@@ -17,7 +17,14 @@ namespace Stack_Queue
             stk.push(56);
             stk.DisplayAll();
             stk.Count();
+            Console.WriteLine();
+            stk.pop();
+            stk.DisplayAll();
+            stk.Count();
+
             Console.ReadLine();
+
+
         }
     }
 }

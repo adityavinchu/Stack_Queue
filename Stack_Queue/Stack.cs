@@ -23,7 +23,17 @@ namespace Stack_Queue
                 head = newNode;
             }
         }
-
+        public void pop()
+        {
+            if (head == null)
+            {
+                Console.WriteLine("List is Empty");
+            }
+            else
+            {
+                head = head.next;
+            }
+        }
 
         public int Count()
         {
