@@ -13,7 +13,7 @@ namespace Stack_Queue
             Stack stk = new Stack();
            
 
-            /*
+            
             Console.WriteLine("--------------Stack--------------");
             stk.push(70);
             stk.push(30);
@@ -25,7 +25,7 @@ namespace Stack_Queue
             stk.pop();
             stk.DisplayAll();
             Console.WriteLine("\n total nodes"+stk.Count()+"\n");
-            */
+            
             
 
             Console.WriteLine("--------------Queue--------------\n");
@@ -35,8 +35,12 @@ namespace Stack_Queue
             que.Enqueue(30);
             que.Enqueue(56);
             que.DisplayAll();
-            Console.WriteLine("\n total nodes: "+que.Count()+"\n");
+            Console.WriteLine("\n total nodes: " + que.Count()+"\n");
             Console.WriteLine();
+
+            que.Dequeue();
+            que.DisplayAll();
+            Console.WriteLine("\n total nodes" + que.Count() + "\n");
 
             Console.ReadLine();
 
